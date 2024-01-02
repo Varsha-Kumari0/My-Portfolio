@@ -1,0 +1,51 @@
+.experienceCont {
+  margin: 40px 0;
+}
+
+.exprncboxOuterCont {
+  border-left: 2px solid rgb(134, 65, 169);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.exprncboxCont {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 3px solid rgb(40, 25, 88);
+  border-radius: 15px;
+  margin-left: 3rem;
+}
+
+.role {
+  display: flex;
+  gap: 1rem;
+}
+
+.CompImage {
+  width: 75px;
+  border-radius: 10%;
+}
+
+.CompData {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.companyName {
+  font-size: 0.9rem;
+}
+
+.timePeriod {
+  font-size: 0.8rem;
+}
+
+.skillsLearnt {
+  display: flex;
+  gap: 0.75rem;
+  list-style: none;
+}
