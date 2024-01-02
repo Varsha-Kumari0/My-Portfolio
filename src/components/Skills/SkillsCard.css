@@ -1,0 +1,33 @@
+.boxCont {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 30px;
+  border: 3px solid rgb(40, 25, 88);
+  border-radius: 20px;
+  margin: 20px 0;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skillName {
+  margin: 10px;
+  text-align: center;
+}
+
+.allSkills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.smallCont {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 7px;
+  border: 1px solid rgb(193, 177, 244);
+  border-radius: 10px;
+  margin: 10px 5px;
+  align-items: center;
+  justify-content: center;
+}

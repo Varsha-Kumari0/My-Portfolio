@@ -1,0 +1,35 @@
+.inner-container2 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 0;
+}
+
+.head {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 2.75rem;
+  margin: 1.3rem 0;
+}
+
+.skillsContainerOuter {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.skillsContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+}

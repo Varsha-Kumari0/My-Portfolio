@@ -1,0 +1,64 @@
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.inner-container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 7rem 0;
+}
+
+.intro {
+  width: 50%;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin: 2rem 0 1.3rem 0;
+}
+
+.name2 {
+  font-weight: bold;
+  font-size: 1.65rem;
+  margin: 1rem 0;
+}
+
+.spanColor {
+  color: rgb(134, 65, 169);
+  /* color: rgb(40, 25, 88); */
+}
+
+.para {
+  line-height: 1.4rem;
+  margin: 1rem 0;
+}
+
+.resumeBtn {
+  margin-top: 1.5rem;
+  padding: 1rem 3rem;
+  border: 2px solid rgb(179, 64, 228);
+  border-radius: 15px;
+  font-size: 1rem;
+  background-color: rgb(179, 64, 228);
+  color: white;
+  cursor: pointer;
+}
+
+.photo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 55%;
+  border-radius: 50%;
+}
