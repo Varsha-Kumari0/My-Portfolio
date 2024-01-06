@@ -1,7 +1,7 @@
 .container {
   height: 100%;
   width: 100%;
-  background-color: black;
+  background: linear-gradient(to right, rgb(23, 5, 19), black);
   color: white;
 }
 
@@ -63,9 +63,15 @@
   border: 2px solid rgb(179, 64, 228);
   border-radius: 15px;
   font-size: 1rem;
-  background-color: rgb(179, 64, 228);
+  /* background-color: rgb(179, 64, 228); */
+  background: linear-gradient(to right, rgb(179, 64, 228), rgb(53, 25, 88));
   color: white;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.resumeBtn:hover {
+  transform: scale(1.07);
 }
 
 .photo {
