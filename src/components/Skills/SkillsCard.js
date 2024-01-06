@@ -10,7 +10,7 @@ const SkillsCard = (props) => {
         <div className="allSkills">
           {props.skills.map((data, index) => (
             <div key={index} className="smallCont">
-              <img src={data.image} alt="" />
+              <img src={data.image} alt="" className="skillImg" />
               <p>{data.name}</p>
             </div>
           ))}

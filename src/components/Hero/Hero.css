@@ -40,6 +40,23 @@
   margin: 1rem 0;
 }
 
+.techSection {
+  margin-top: 35px;
+  margin: 35px 0;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+.eachSection h3 {
+  float: left;
+  margin-right: 10px;
+}
+
+.eachSection p {
+  font-size: 1em;
+}
+
 .resumeBtn {
   margin-top: 1.5rem;
   padding: 1rem 3rem;
@@ -60,5 +77,7 @@
 
 .image {
   width: 55%;
+  height: 55%;
   border-radius: 50%;
+  /* border: 2px solid black; */
 }

@@ -16,6 +16,7 @@ const Experience = () => {
           <div className="experienceCont">
             {ExperienceData.map((data) => (
               <div className="exprncboxOuterCont">
+                <div className="bulletCont"> </div>
                 <div className="exprncboxCont">
                   <div className="role">
                     <img src={data.image} alt="" className="CompImage" />
@@ -51,7 +52,8 @@ const ExperienceData = [
     role: "Member",
     company: "SSDC (Sliet Software Development Club)",
     timePeriod: "Nov 2023 - Present",
-    descAboutJob: "I am member at my college's Software development club",
+    descAboutJob:
+      "Actively contributing as a member of the SLIET Software Development Club (SSDC), engaging in collaborative projects and fostering a passion for software development.",
     skillsLearnt: [],
   },
   {
@@ -60,7 +62,8 @@ const ExperienceData = [
     role: "Web Developer",
     company: "XOR Labs ",
     timePeriod: "Jun 2023 - Nov 2023 ",
-    descAboutJob: "I am member at my college's Software development club",
+    descAboutJob:
+      "Completed an enriching internship at XOR Labs, gaining hands-on experience as a web developer. Applied theoretical knowledge to real-world projects, enhancing skills in web development and contributing to the dynamic environment at XOR Labs.",
     skillsLearnt: ["Angular,", "Tailwind CSS,", "TypeScript"],
   },
   {
@@ -69,7 +72,8 @@ const ExperienceData = [
     role: "Frontend Web Developer",
     company: "techFEST SLIET",
     timePeriod: "Jan 2023 - Mar 2023 ",
-    descAboutJob: "I am member at my college's Software development club",
-    skillsLearnt: ["HTML5,", "CSS,", "React.js,", "GitHub,", "Bootstrap"],
+    descAboutJob:
+      "Served as a Frontend Web Developer for TechFEST SLIET'23, actively contributing to the creation and enhancement of the event's web interface. Played a key role in crafting an engaging and user-friendly digital experience for participants and attendees.",
+    skillsLearnt: ["React.js,", "HTML,", "CSS,", "GitHub,", "Bootstrap"],
   },
 ];

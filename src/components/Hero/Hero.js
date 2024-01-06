@@ -13,15 +13,28 @@ const Hero = () => {
               I am a <span className="spanColor">frontend developer</span>
             </h2>
             <p className="para">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
-              dolores atque et quidem ipsa cum ipsam natus reprehenderit,
-              numquam nisi aliquam? Aut voluptatem magni similique! Lorem, ipsum
-              dolor sit amet consectetur adipisicing elit. Mollitia quae esse
-              necessitatibus. Iure quam quasi blanditiis distinctio voluptates,
-              molestias exercitationem beatae illo magnam quis, voluptatibus,
-              deleniti provident! Sequi soluta error reprehenderit neque nisi
-              excepturi eius.
+              Hello! 👋 I'm Varsha Kumari, a passionate 2nd-year Computer
+              Science student. I craft engaging and user-friendly websites,
+              bringing ideas to life through code. Currently delving into the
+              world of Frontend Development, I aspire to evolve into a Full
+              Stack Developer.
             </p>
+            <div className="techSection">
+              <div className="eachSection">
+                <h3>💻 Tech Enthusiast : </h3>
+                <p>
+                  Proficient in Frontend technologies; eager to explore the
+                  entire tech stack.
+                </p>
+              </div>
+              <div className="eachSection">
+                <h3>🚀 Learning Journey : </h3>
+                <p>
+                  Mastering Data Structures and Algorithms in C++ to build a
+                  solid foundation.
+                </p>
+              </div>
+            </div>
             <button className="resumeBtn">Check Resume</button>
           </div>
           <div className="photo">

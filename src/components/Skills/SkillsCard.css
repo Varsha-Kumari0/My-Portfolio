@@ -18,16 +18,23 @@
 .allSkills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .smallCont {
   width: auto;
   display: flex;
   flex-direction: row;
-  padding: 7px;
+  padding: 10px;
   border: 1px solid rgb(193, 177, 244);
   border-radius: 10px;
   margin: 10px 5px;
   align-items: center;
   justify-content: center;
+}
+
+.skillImg {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
 }

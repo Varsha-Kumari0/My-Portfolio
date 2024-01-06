@@ -2,6 +2,19 @@ import React from "react";
 import "../Hero/Hero.css";
 import "./Skills.css";
 import SkillsCard from "./SkillsCard";
+import ReactIcon from "../../assets/favicon.ico";
+import AngularIcon from "../../assets/angular.png";
+import HTMLIcon from "../../assets/HTML.png";
+import CSSIcon from "../../assets/CSS.png";
+import JSIcon from "../../assets/js.png";
+import BootstrapIcon from "../../assets/bootstrap.png";
+import TailwindIcon from "../../assets/tailwindcss.png";
+import CIcon from "../../assets/C.png";
+import CppIcon from "../../assets/c++.png";
+import JavaIcon from "../../assets/java.png";
+import GitIcon from "../../assets/git.png";
+import GithubIcon from "../../assets/github.png";
+import VSCodeIcon from "../../assets/vsCode.png";
 
 const Skills = () => {
   return (
@@ -36,31 +49,31 @@ const TotalSkills = [
     skillTitle: "Frontend",
     skills: [
       {
-        image: "../../assets/nun.jpg",
+        image: ReactIcon,
         name: "React",
       },
       {
-        image: "",
+        image: AngularIcon,
         name: "Angular",
       },
       {
-        image: "",
+        image: HTMLIcon,
         name: "HTML",
       },
       {
-        image: "",
+        image: CSSIcon,
         name: "CSS",
       },
       {
-        image: "",
+        image: JSIcon,
         name: "JavaScript",
       },
       {
-        image: "",
+        image: BootstrapIcon,
         name: "Bootstrap",
       },
       {
-        image: "",
+        image: TailwindIcon,
         name: "Tailwind CSS",
       },
     ],
@@ -78,15 +91,15 @@ const TotalSkills = [
     skillTitle: "Programming Languages",
     skills: [
       {
-        image: "",
+        image: CIcon,
         name: "C",
       },
       {
-        image: "",
+        image: CppIcon,
         name: "C++",
       },
       {
-        image: "",
+        image: JavaIcon,
         name: "Java",
       },
     ],
@@ -95,15 +108,15 @@ const TotalSkills = [
     skillTitle: "Others",
     skills: [
       {
-        image: "",
+        image: GitIcon,
         name: "Git",
       },
       {
-        image: "",
+        image: GithubIcon,
         name: "GitHub",
       },
       {
-        image: "",
+        image: VSCodeIcon,
         name: "VS Code",
       },
     ],
