@@ -16,3 +16,8 @@
   right: -6px;
   float: right;
 }
+
+.CollegeImage {
+  width: auto;
+  border-radius: 10%;
+}

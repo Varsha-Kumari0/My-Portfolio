@@ -1,8 +1,14 @@
 .container {
   height: 100%;
   width: 100%;
-  background: linear-gradient(to right, rgb(23, 5, 19), black);
+  background: linear-gradient(to right, rgb(40, 7, 33), rgb(3, 0, 16));
+  /* background: linear-gradient(to right, rgb(40, 7, 33), black); */
+  background-color: black;
   color: white;
+  /* background-image: url(../../assets/animation2.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
 }
 
 .inner-container {
@@ -20,14 +26,14 @@
 
 .name {
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
   margin: 2rem 0 1.3rem 0;
 }
 
 .name2 {
   font-weight: bold;
-  font-size: 1.65rem;
-  margin: 1rem 0;
+  font-size: 1.95rem;
+  margin: 1rem 0 1.5rem 0;
 }
 
 .spanColor {
@@ -36,25 +42,9 @@
 }
 
 .para {
-  line-height: 1.4rem;
+  line-height: 1.7rem;
   margin: 1rem 0;
-}
-
-.techSection {
-  margin-top: 35px;
-  margin: 35px 0;
-  display: flex;
-  gap: 1.5rem;
-  flex-direction: column;
-}
-
-.eachSection h3 {
-  float: left;
-  margin-right: 10px;
-}
-
-.eachSection p {
-  font-size: 1em;
+  font-size: 1.2rem;
 }
 
 .resumeBtn {

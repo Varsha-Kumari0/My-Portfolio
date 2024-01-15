@@ -21,7 +21,7 @@ const Education = () => {
                 <div className="bulletContRight"> </div>
                 <div className="exprncboxCont">
                   <div className="role">
-                    <img src={data.image} alt="" className="CompImage" />
+                    <img src={data.image} alt="" className="CollegeImage" />
                     <div className="CompData">
                       <h2>{data.college}</h2>
                       <p className="companyName">{data.degree}</p>
