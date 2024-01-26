@@ -19,7 +19,7 @@ import VSCodeIcon from "../../assets/vsCode.png";
 const Skills = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="skills">
         <div className="inner-container2">
           <div className="head">
             <h1 className="heading">Skills</h1>

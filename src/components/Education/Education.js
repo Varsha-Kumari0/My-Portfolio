@@ -8,7 +8,7 @@ import SlietLogo from "../../assets/slietLogo.jpeg";
 const Education = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="education">
         <div className="inner-container2">
           <div className="head">
             <h1 className="heading">Education</h1>

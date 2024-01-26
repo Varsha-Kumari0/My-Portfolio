@@ -6,7 +6,7 @@ import "./Experience.css";
 const Experience = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="experience">
         <div className="inner-container2">
           <div className="head">
             <h1 className="heading">Experience</h1>

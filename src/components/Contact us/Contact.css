@@ -1,0 +1,40 @@
+.contact-form {
+  margin: 40px auto;
+  padding: 30px;
+  background-color: black;
+  border-radius: 8px;
+  width: 40%;
+  border: 3px solid rgb(40, 25, 88);
+  box-shadow: 5px 5px 11px rgb(40, 25, 88);
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 15px;
+  background: black;
+  border: 1px solid whitesmoke;
+  border-radius: 11px;
+  color: white;
+}
+
+.sendButton {
+  width: 100%;
+  padding: 0.7rem 3rem;
+  border: 2px solid rgb(179, 64, 228);
+  border-radius: 15px;
+  font-size: 1rem;
+  background: linear-gradient(to right, rgb(179, 64, 228), rgb(53, 25, 88));
+  color: white;
+  cursor: pointer;
+}

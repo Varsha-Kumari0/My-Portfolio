@@ -1,0 +1,38 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.footer-top {
+  font-size: 1.5rem;
+}
+
+.footer-top p {
+  font-size: 30px;
+}
+
+.footer-middle {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-middle a {
+  margin: 0 15px;
+  background-color: white;
+}
+
+.footer-middle img {
+  width: 30px; /* Adjust the size of the logo */
+}
+
+.footer-bottom {
+  margin-top: 25px;
+  font-size: 0.8rem;
+}
+
+.footer-bottom p {
+  font-size: 16px;
+}

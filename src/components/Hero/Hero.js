@@ -6,9 +6,7 @@ import DummyImage from "../../assets/image.jpeg";
 const Hero = () => {
   return (
     <>
-      <div className="container">
-        {/* <img src={Gif} alt="" /> */}
-
+      <div className="container" id="about">
         <div className="inner-container">
           <div className="intro">
             <h2 className="name">Hi, I am Varsha Kumari</h2>
