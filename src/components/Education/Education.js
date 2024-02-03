@@ -19,7 +19,7 @@ const Education = () => {
             {EducationData.map((data) => (
               <div className="exprncboxOuterContRight">
                 <div className="bulletContRight"> </div>
-                <div className="exprncboxCont">
+                <div className="exprncboxContRight">
                   <div className="role">
                     <img src={data.image} alt="" className="CollegeImage" />
                     <div className="CompData">

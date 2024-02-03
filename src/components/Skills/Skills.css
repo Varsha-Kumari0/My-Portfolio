@@ -34,3 +34,22 @@
   flex-direction: row;
   gap: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+  .inner-container2 {
+    width: 85%;
+  }
+
+  .head {
+    width: 100%;
+  }
+
+  .skillsContainerOuter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skillsContainer {
+    width: 100%;
+  }
+}

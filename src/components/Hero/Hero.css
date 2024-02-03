@@ -77,3 +77,28 @@
   border-radius: 50%;
   /* border: 2px solid black; */
 }
+
+@media screen and (max-width: 480px) {
+  .inner-container {
+    width: 85%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .intro {
+    width: 100%;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .photo {
+    width: 60%;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+}

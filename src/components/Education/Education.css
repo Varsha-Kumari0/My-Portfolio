@@ -17,7 +17,37 @@
   float: right;
 }
 
+.exprncboxContRight {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 3px solid rgb(40, 25, 88);
+  border-radius: 15px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  transition: transform 0.3s ease;
+}
+
+.exprncboxContRight:hover {
+  transform: scale(1.05);
+}
+
 .CollegeImage {
   width: auto;
   border-radius: 10%;
+}
+
+@media screen and (max-width: 480px) {
+  .exprncboxOuterContRight {
+    width: 100%;
+  }
+
+  .exprncboxContRight {
+    margin-left: 1rem;
+  }
+
+  .skillsLearnt {
+    flex-wrap: wrap;
+  }
 }

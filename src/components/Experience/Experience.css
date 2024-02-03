@@ -70,3 +70,17 @@
   gap: 0.75rem;
   list-style: none;
 }
+
+@media screen and (max-width: 480px) {
+  .exprncboxOuterCont {
+    width: 100%;
+  }
+
+  .exprncboxCont {
+    margin-right: 1rem;
+  }
+
+  .skillsLearnt {
+    flex-wrap: wrap;
+  }
+}
